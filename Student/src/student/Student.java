@@ -246,7 +246,7 @@ public class Student
         System.out.println("Goodbye!");
     }   
 
-    
+    //method to check if the age provided is numeric or not, and by other methods to check if input is numeric or not
     public static boolean invalidChar(String string)
     {
         int intValue;
@@ -267,7 +267,8 @@ public class Student
     
         return true;
     }
-    
+
+    //method to check if age is valid or not
     public static boolean validAge(int age)
     {
         boolean validity=false;
@@ -279,7 +280,8 @@ public class Student
         
         return validity;
     }
-    
+
+    //method to display initial prompt
     public void Welcome()
     {
         System.out.println("STUDENT MANAGEMENT APPLICATION");
@@ -304,7 +306,8 @@ public class Student
         }
         
     }
-    
+
+    //menu method to implement functionality of other methods
     public void Menu(ArrayList<Student> students)
     {
         int choice=0;
