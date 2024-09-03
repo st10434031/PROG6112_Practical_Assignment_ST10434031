@@ -130,7 +130,8 @@ public class Student
     return foundOrNot;
         
     }
-    
+
+    //overloaded method used in unit testing to demonstrate functionality
      public boolean SearchStudent(ArrayList<Student> students,Student student)
     {
         boolean foundOrNot=false;
